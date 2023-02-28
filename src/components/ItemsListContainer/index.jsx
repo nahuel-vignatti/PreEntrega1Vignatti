@@ -1,7 +1,7 @@
 import "./itemlistcontainer.css"
 
 function ItemListContainer({props}){
-    return (<div className="contenedor">
+    return (<div className="cont">
         {props}
     </div>)
 }

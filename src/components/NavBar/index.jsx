@@ -1,11 +1,11 @@
 import "./navbar.css";
 import CartWidget from "../CartWidget";
-import img from "../../media/logo.png"
-
+import img from "../../media/logo.png";
+import Button from 'react-bootstrap/Button';
 
 function NavBar(){
-    return <div>
-        <ul className="lista">
+    return (<div>
+        <ul className="lista pb-5">
             <li><a href="#">Productos</a></li>
             <li><img src={img} alt="Logo Vivero" /></li>
             <li><a href="#">Quienes somos</a></li>
@@ -13,7 +13,7 @@ function NavBar(){
             <li><CartWidget /></li>            
         
         </ul>
-    </div>
+    </div>)
 }
 
 export default NavBar;
